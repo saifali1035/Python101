@@ -55,3 +55,30 @@ not- returns the opposite
 4. use comparison op to find where a=34 is bigger that b=90 or not - 24_PS.py
 5. program to find average of two numbers entered by user - 25_PS.py
 6. program to find square of two numbers entered by user - 26_PS.py
+
+## Chapter-3
+
+1. Strings - Its a datatype.
+
+Single Quoted - 'Saif' or 'Saif "WoW"'
+
+Double Quoted - "Saif's Bike" (used when we have single quote in the sentence)
+
+Triple Quoted - '''Saif's Bike is new.
+                He is riding is bike today''' (used when we have single and double quote or new line in the sentence)
+
+2. String concatenation - + can be used to do that
+
+3. String Slicing - Slicing a string in python to get values suing indexes
+
+4. String Fuctions - All important functions for string
+
+5. Excape Sequences - \n - newline, \t - tab, \' - single quote, \\ - backslash
+
+
+## Chapter-3 Practice set
+1. prog to add Good Afternoon to a user entered input
+2. fill a letter template
+3. prog to detect double space in string
+4. replace it with single string from 3
+5. use escape sequence - "Dear Saif, Can you please help \"me\". Thanks!"
