@@ -34,8 +34,11 @@ There a 2 types of module - builtin and external(can be installed using pip)
 4. Operators - used to carry out operations
 
 Arithmatic -, +, *, /
+
 Assigment  +=, -=, *=, /=
+
 Comparison ==, >=, <=, <, > (prints boolean results)
+
 Logical and, or, not ( works on boolean value) 
 and- returns true when both are true
 or- returns true when any one is true
