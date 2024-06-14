@@ -16,12 +16,39 @@ There a 2 types of module - builtin and external(can be installed using pip)
 5. Comments - can be added as info in python file using #(single line) and '''(for multiline)
 
 ## Chapter-1 Practice set
-1. write a program to print a peom - 01_PS.py
+1. write a program to print a peom - 11_PS.py
 2. use REPL to print table of 5 - ![alt text](image-1.png)
-3. use and external module - 02_PS.py - ![alt text](image-2.png)
-4. use a func from os module to print content of a dir - 03_PS.py
-5. use comment is 4 - 03_PS.py
+3. use and external module - 12_PS.py - ![alt text](image-2.png)
+4. use a func from os module to print content of a dir - 13_PS.py
+5. use comment is 4 - 13_PS.py
 
 
 ## Chapter-2
 
+1. Variables - containers to store values(can only start with character or undescore)
+
+2. Keywords - some words are reserved in python and should not be used as variables. like import, def , etc.
+
+3. Use of built in function type() - to check type of variable
+
+4. Operators - used to carry out operations
+
+Arithmatic -, +, *, /
+Assigment  +=, -=, *=, /=
+Comparison ==, >=, <=, <, > (prints boolean results)
+Logical and, or, not ( works on boolean value) 
+and- returns true when both are true
+or- returns true when any one is true
+not- returns the opposite
+
+5. Typecasting - used to chnage data-type of variable.(only for valid conversions)
+
+6. Input function - used to take input from user(assumes input as string only)
+
+## Chapter-2 Practice set
+1. program to add 2 numbers - 21_PS.py
+2. find remainder when a number is divided by 2 = 21_PS.py
+3. Check type of variable = 23_PS.py
+4. use comparison op to find where a=34 is bigger that b=90 or not - 24_PS.py
+5. program to find average of two numbers entered by user - 25_PS.py
+6. program to find square of two numbers entered by user - 26_PS.py
