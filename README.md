@@ -77,11 +77,11 @@ Triple Quoted - '''Saif's Bike is new.
 
 
 ## Chapter-3 Practice set
-1. prog to add Good Afternoon to a user entered input
-2. fill a letter template
-3. prog to detect double space in string
-4. replace it with single string from 3
-5. use escape sequence - "Dear Saif, Can you please help \"me\". Thanks!"
+1. prog to add Good Afternoon to a user entered input - 31_PS.py
+2. fill a letter template - 32_PS.py
+3. prog to detect double space in string - 33_PS.py
+4. replace it with single string from 3 - 34_PS.py
+5. use escape sequence - "Dear Saif, Can you please help \"me\". Thanks!" - 35_PS.py
 
 ## Chapter-4
 
