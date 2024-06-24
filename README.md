@@ -82,3 +82,46 @@ Triple Quoted - '''Saif's Bike is new.
 3. prog to detect double space in string
 4. replace it with single string from 3
 5. use escape sequence - "Dear Saif, Can you please help \"me\". Thanks!"
+
+## Chapter-4
+
+1. List - containers to store a set of elements of any data type, it is ordered.
+
+2. List slicing can be done same as string slicing.
+
+3. List indexing can be done and items of list can be done accesed using index starting with 0.
+
+4. List Methods - 
+
+sort() - sorting in ascending order, cant be done with strings
+
+reverse() - reverse the given list
+
+append() - append an elements to last of the list
+
+insert() - takes 2 elements and add elements to a index
+
+pop() - removes an elements from a index and returns it
+
+remove() - removes the first matching elements
+
+5. Tuple - Immutable datatype (cannot be changed).
+
+6. Tuple Methods
+
+count() - counts the number of occurance of the elements
+
+index() - returns the index of element's first occurance
+
+## Chapter-4 Practice set
+
+1. list to store seven fruits entered by user
+
+2. Accept marks of seven students and sort them
+
+3. Check that a tuple cannot be changed in python
+
+4. Program to sum a list with 4 numbers
+
+5. count number of zeroes in this tuple - (0,9,88,76,4,0,15,9,0)
+
