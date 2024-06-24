@@ -125,3 +125,54 @@ index() - returns the index of element's first occurance
 
 5. count number of zeroes in this tuple - (0,9,88,76,4,0,15,9,0) - - 45_PS.py
 
+
+## Chapter-5
+
+1. Dictionary - Collection of Key-Value pairs
+
+2. Dictionary is unodered and immutable but is indexed and cannot have duplicate keys
+
+3. Some Dictionary methods - keys()- prints keys, values() - prints values, items() - prints both key and value in tuple form, update() - updates the dict doesnot returns any value, get() - returns value or returns none
+
+4. Set - Collection of non repetetive items where items cannot be chnaged , they are unordered and unindexed
+
+5. To create empty set b=set()
+
+6. Methods for set
+
+add() - to add values and tuple but list and dict cannot be added.
+
+len() - prints the length of the set.
+
+remove() - removes an element.
+
+pop() - removes the element and returns it.
+
+clear() - clears out the set.
+
+7. methods that works on multiple sets - 
+
+intersection - prints commom elements.
+
+union - prints all elemnets from all sets.
+
+## Chapter-5 Practice set
+
+1. Write a program to create dic of hindi words and meaning and provide user a way to look it up. - 51_PS.py
+
+2. Take user input 8 values and dont print the duplicate values. - 52_PS.py
+
+3. Can we have a int(1) and str(1) in a set - 53_PS.py
+
+4. find the length of this set.
+ ![alt text](image-3.png) - 3 is Answer
+
+5. s{} - what is the type of this - Its is a dict as empty set is not created like this.
+
+6. create an empty dic and help 4 friend add thier favourite language as value and thier name as key.(Let thier named be unique)  - 56_PS.py
+
+7. What will happen in 6 if two friends have same name - the last value entered will override the older value
+
+8. What will happen if in 6 two friends share same lang - duplicate values are allowed but not keys.
+
+
