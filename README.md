@@ -115,13 +115,13 @@ index() - returns the index of element's first occurance
 
 ## Chapter-4 Practice set
 
-1. list to store seven fruits entered by user
+1. list to store seven fruits entered by user - 41_PS.py
 
-2. Accept marks of seven students and sort them
+2. Accept marks of seven students and sort them - 42_PS.py
 
-3. Check that a tuple cannot be changed in python
+3. Check that a tuple cannot be changed in python - 43_PS.py
 
-4. Program to sum a list with 4 numbers
+4. Program to sum a list with 4 numbers - 44_PS.py
 
-5. count number of zeroes in this tuple - (0,9,88,76,4,0,15,9,0)
+5. count number of zeroes in this tuple - (0,9,88,76,4,0,15,9,0) - - 45_PS.py
 
