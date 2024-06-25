@@ -176,3 +176,28 @@ union - prints all elemnets from all sets.
 8. What will happen if in 6 two friends share same lang - duplicate values are allowed but not keys.
 
 
+## Chapter-6
+
+1. Conditional Expressions
+
+2. if Else loop - Multiway decision taking
+
+
+## Chapter-6 Practice set
+
+1. Program to find greatest of four number entered by user. - 61_PS.py
+
+2. Program to declare PASs or FAIL for a user input percentage. - 62_PS.py
+
+3. Write a program that can detect these spam words - ![](image-4.png) - 63_PS.py
+
+4. program to find a give a username has less than 10 char or not - 64_PS.py
+
+5. find grade of a user from following scheme ![alt text](image-5.png) - 65_PS.py
+
+6. find if in a given paragraph "Harry" is written or not. - 66_PS.py
+
+
+## Chapter-7
+
+1. Lopps - 
