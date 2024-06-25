@@ -200,4 +200,31 @@ union - prints all elemnets from all sets.
 
 ## Chapter-7
 
-1. Lopps - 
+1. Loops - Help us with repetition .
+
+2. While - keeps executing until condition is true. In this condition is checked first
+
+3. For - iterate trough list, sequence, tuple
+
+4. range fucntion in python - is used to create and iterate through a range of numbers
+
+5. break statemnet - break the lopp on basis of a condition
+
+6. continue statement - to skip the loop of one iteration based on condition set
+
+7. pass statement - placeholder for future code.
+
+
+## Chapter-7 Practice set
+
+1. Multiplicationm table of a given number using for loop - 71_PS.py
+
+2. Greet all the names in a list that start with S. - 71_PS.py
+
+3. Do 1 using while loop. - 71_PS.py
+
+4. find if a number is prime or not. - 71_PS.py
+
+5. find sum of n natural number using while loop. - 71_PS.py
+
+6. find factorial of a number using for loop - 71_PS.py
