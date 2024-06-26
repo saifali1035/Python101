@@ -228,3 +228,84 @@ union - prints all elemnets from all sets.
 5. find sum of n natural number using while loop. - 71_PS.py
 
 6. find factorial of a number using for loop - 71_PS.py
+
+
+## Chapter-8
+
+1. Functions - group of statement that performs a specific task, its reusable and makes program easy to read.
+
+2. We have userdefined(what we make) and built-in fucntions(print()) in python.
+
+3. Recursion - A function that call itself within its defenition
+
+
+## Chapter-8 Practice set
+
+1. a function to find greatest of 3 num. - 81_PS.py
+
+2. a function to convert celcius to farenheit. - 82_PS.py
+
+3. how to prevent a python print function from printing a new line. - 83_PS.py
+
+4. write a recursive function for some of first n natural numbers. - 84_PS.py
+
+
+## Project 1
+
+Snake, Water and Gun game in python.
+
+```Python
+#Importing random to use random fuction for computer to enter its value in the game.
+import random
+
+#this function helps us to print the user's choice in the game.
+def game_keywords(word):
+    if word=='s':
+        print("Snake")
+    if word=='w':
+        print("Water")
+    if word=='g':
+        print("Gun")
+
+
+#Banner Can be modeified to your liking
+print('''         Hello User Welcome to the GAME !!!
+         Computer has chosen its option
+         Now its your turn !!!''')
+
+#Taking user input
+user_choice=input("Enter your choice : Snake(s), Water(w) or Gun(g) :")
+
+#Generating Random number between 1, 2 and 3 for computer input in the game.
+random_choice_for_comp_int=random.randint(1,3)
+
+#Converting random number to a choice valid in game
+if random_choice_for_comp_int==1:
+    computer_choice='s'
+elif random_choice_for_comp_int==2:
+    computer_choice='w'
+elif random_choice_for_comp_int==3:
+    computer_choice='g'
+
+#Game Logic (Snake wins over Water , Gun win over Snake and Water wins over Gun.)
+if computer_choice==user_choice:
+    print("Match Draw ! You both choose", game_keywords(computer_choice) )
+elif computer_choice=='s' and user_choice=='w':
+    print("You Lost !  As Computer Choose Snake !")
+elif computer_choice=='s' and user_choice=='g':
+    print("You Won !   As Computer Choose Snake !")
+elif computer_choice=='w' and user_choice=='s':
+    print("You Won !   As Computer Choose Water !")
+elif computer_choice=='w' and user_choice=='g':
+    print('You Lost !  As Computer Choose Water !')
+elif computer_choice=='g' and user_choice=='s':
+    print('You Lost !  As Computer Choose Gun !')
+elif computer_choice=='g' and user_choice=='w':
+    print('You Won !   As Computer Choose Gun !')
+else:
+    print("Invalid Choice ! ")
+```
+
+
+
+
