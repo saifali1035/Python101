@@ -307,5 +307,56 @@ else:
 ```
 
 
+## Chapter-9
+
+1. File I/O - Operations done on file using python as RAM is volatile.
+
+2. Type of files - text files(Characters are written on it and its generally meant for reading) and binary files( a not normal text files and are generally meant for some specific program like a .jpg file is meant to be read or viewed using image viewer only).
+
+3. File Functions - 
+
+Open a file - var = open("file_name", "mode")  - default mode if nothing specified is "r" and post opening a file its is good habit to close it using close() function, so that other programs can also use it and our program doesn't keeps a hold on that file. - Available modes are r(read), rb(read in binary), rt(read in text), w(write), append(a) and +(update)
+
+
+Reading a file - once opened we can use var.read("number of char") - default if nothing specified is to read everything , it returns the data can then it can be stored in a var to printed directly.
+
+
+readline() - reads only one line. - first occurance in program reads first line , second occurance reads second and so on.
+
+4. with statement - It is called at context manager and its the best way to open and close file automatically.
+
+
+## Chapter-9 Practice set
+
+1. read from a file poem.txt and find if it has word twinkle- 91_PS.py
+
+2. a function that will update the file. 92_PS.py
+
+3. write multiplication table for a user for each digit(2-13) in a diff file and store them in a dir. 93_PS.py
+
+4. A file contains a word "Donkey" multiple times write a program which replcaes it with ######. 94_PS.py
+
+5. Repeat 4 but with a list of words. 95_PS.py
+
+6. find a string in the file and print its position.  96_PS.py
+
+7. Copy one file to another. 97_PS.py
+
+8. Check if two files are identical. 98_PS.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
