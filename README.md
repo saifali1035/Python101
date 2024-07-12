@@ -345,9 +345,32 @@ readline() - reads only one line. - first occurance in program reads first line 
 8. Check if two files are identical. 98_PS.py
 
 
+## Chapter-10
+
+1. OOP - Its not necessary but a way of problem solving in python. principle of using code reuse.
+
+2. Class - Blueprint for creating objects. 
+
+3. Object - Object is the instantaniation of the class. While class is just template and doesnot occupy memory, memory is only occupied when class is initialized.
+
+4. Technique to model any problem in OOPs. ![alt text](image-7.png)
+
+5. Instance attribute(attribute that you change using class instance) takes precedence over class attribute(attribute defined within class)
+
+6. Self Parameter - Its is a parameter that is passed auto when we call any of the objects.
+
+7. Static Method - a Method that doesn't uses self parameter, Use keyword - @staticmethod
+
+8. __init__() constructor - A special method that runs as soon as object is created.
 
 
+## Chapter-10 Practice set
 
+1. Create a class to store data of some microsoft employees.
+
+2. Write a calculator class capable of finding square root and square qube of a number.
+
+3. A Static method to greet user
 
 
 
